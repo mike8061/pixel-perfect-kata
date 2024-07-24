@@ -1,1 +1,32 @@
 @import "./reset.css";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.5;
+}
+.container {
+  width: 640px;
+  margin: 0 auto;
+}
+h2 {
+  font-size: 20px;
+  line-height: 1.2;
+}
+main {
+  display: flex;
+}
+.box {
+  display: flex;
+  margin-bottom: 24px;
+}
+.text-1 {
+  margin: 0 20px;
+}
+footer p {
+  text-align: center;
+  padding: 48px 0px;
+}
